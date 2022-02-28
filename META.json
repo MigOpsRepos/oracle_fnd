@@ -1,0 +1,44 @@
+{
+   "name": "oracle_fnd",
+   "abstract": "Extension to add global profile variable Oracle features from FND_GLOBAL and FND_PROFILE to PostgreSQL.",
+   "version": "1.0",
+   "maintainer": "Gilles Darold <gilles@darold.net>",
+   "license": "postgresql",
+   "release_status": "stable",
+   "provides": {
+      "oracle_fnd": {
+         "abstract": "Extension to manage Global Variable from FND_GLOBAL and FND_PROFILE",
+         "file": "oracle_fnd--1.0.sql",
+         "docfile": "README.md",
+         "version": "1.0"
+      }
+   },
+   "resources": {
+      "bugtracker": {
+         "web": "https://github.com/MigOpsRepos/oracle_fnd/issues"
+      },
+      "repository": {
+        "url":  "git://github.com/MigOpsRepos/oracle_fnd.git",
+        "web":  "https://github.com/MigOpsRepos/oracle_fnd.git",
+        "type": "git"
+      }
+   },
+   "prereqs": {
+       "runtime": {
+           "requires": {
+               "PostgreSQL": "9.6.0"
+           }
+       }
+   },
+   "generated_by": "MigOps Inc",
+   "meta-spec": {
+      "version": "1.0",
+      "url": "http://pgxn.org/meta/spec.txt"
+   },
+   "tags": [
+      "fnd_global",
+      "fnd_profile",
+      "variable"
+   ]
+}
+
