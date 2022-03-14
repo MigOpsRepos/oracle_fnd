@@ -45,6 +45,16 @@ fnd_global.conc_program_id = -1
 fnd_global.user_id = -1
 fnd_global.resp_id = -1
 fnd_global.resp_appl_id = -1
+fnd_global.security_group_id = -1
+fnd_global.user_name = ''
+fnd_global.resp_name = ''
+fnd_global.application_name = ''
+fnd_global.application_short_name = ''
+fnd_global.current_language = ''
+fnd_global.base_language = ''
+fnd_global.org_id = -1
+fnd_global.org_name = ''
+fnd_global.conc_priority_request = -1
 
 fnd_profil.username = ''
 fnd_profil.user_id = -1
@@ -108,6 +118,53 @@ Returns the concurrent program ID.
 
 Returns the concurrent request ID.
 
+* FND_GLOBAL.SECURITY_GROUP_ID
+
+Returns the security group ID.
+
+* FND_GLOBAL.ORG_ID
+
+Returns the organisation ID.
+
+* FND_GLOBAL.USER_NAME
+
+Returns the responsable ID.
+
+* FND_GLOBAL.RESP_ID
+
+Returns the responsable name.
+
+* FND_GLOBAL.RESP_NAME
+
+Returns the resp name.
+
+* FND_GLOBAL.APPLICATION_NAME
+
+Returns the application name.
+
+* FND_GLOBAL.APPLICATION_SHORT_NAME
+
+Returns the application short name.
+
+* FND_GLOBAL.ORG_NAME
+
+Returns the organisation name.
+
+* FND_GLOBAL.BASE_LANGUAGE
+
+Returns the base language.
+
+* FND_GLOBAL.CURRENT_LANGUAGE
+
+Returns the current language.
+
+* FND_GLOBAL.CONC_PRIORITY_REQUEST
+
+Returns the priority request.
+
+* FND_GLOBAL.RESP_APPL_ID
+
+Returns the responsable application ID.
 
 #### FND_PROFILE
 
