@@ -1,7 +1,7 @@
 {
    "name": "oracle_fnd",
    "abstract": "Extension to add global profile variable Oracle features from FND_GLOBAL and FND_PROFILE to PostgreSQL.",
-   "version": "1.0",
+   "version": "1.2",
    "maintainer": "Gilles Darold <gilles@darold.net>",
    "license": "postgresql",
    "release_status": "stable",
@@ -10,7 +10,7 @@
          "abstract": "Extension to manage Global Variable from FND_GLOBAL and FND_PROFILE",
          "file": "oracle_fnd--1.0.sql",
          "docfile": "README.md",
-         "version": "1.0"
+         "version": "1.2"
       }
    },
    "resources": {

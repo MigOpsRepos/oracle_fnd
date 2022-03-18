@@ -1,4 +1,4 @@
 comment = 'Functions that emulate FND_GLOBAL and FND_PROFILE package''s API using custom variables'
-default_version = '1.1'
+default_version = '1.2'
 module_pathname = '$libdir/oracle_fnd'
 relocatable = false
