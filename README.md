@@ -213,13 +213,11 @@ Parameter:
 
 ### [Authors](#authors)
 
-Gilles Darold
-gilles@darold.net
+* Gilles Darold
 
 ### [License](#license)
 
-This extension is free software distributed under the PostgreSQL
-Licence.
+This extension is free software distributed under the PostgreSQL License.
 
         Copyright (c) 2022, MigOps Inc
 
