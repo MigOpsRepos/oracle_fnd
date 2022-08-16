@@ -1,7 +1,7 @@
 -- complain if script is sourced in psql, rather than via CREATE EXTENSION
 \echo Use "CREATE EXTENSION oracle_fnd" to load this file. \quit
 
-CREATE SCHEMA IF NOT EXISTS FND_GLOBAL;
+CREATE SCHEMA FND_GLOBAL;
 
 -- This procedure sets up global variables and profile values in a database session.
 -- Call this procedure to initialize the global security context for a database session.
@@ -54,7 +54,7 @@ $$ LANGUAGE SQL;
 -- FND_PROFILE --
 -----------------
 
-CREATE SCHEMA IF NOT EXISTS FND_PROFILE;
+CREATE SCHEMA FND_PROFILE;
 
 -- Puts a value to the specified user profile option.
 --	pname 	The (developer) name of the profile option you want to set.
